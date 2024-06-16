@@ -1,7 +1,6 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-//import About from '../views/About.vue';
 
 const routes = [
     {
@@ -9,11 +8,6 @@ const routes = [
         name: 'HomeView',
         component: HomeView
     },
-    /*{
-        path: '/about',
-        name: 'About',
-        component: About
-    }*/
 ];
 
 const router = createRouter({
